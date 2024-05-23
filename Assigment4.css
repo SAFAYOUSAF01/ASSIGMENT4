@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tab-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tabs {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-link {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right: 1px;
+}
+
+.tab-link:hover {
+    background-color: #ddd;
+}
+
+.tab-link.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
